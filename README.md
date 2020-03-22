@@ -14,7 +14,7 @@ LikeUserPhoto,
 Show Your FollowBack User,
 SeenStroy,
 Follower,
-Folling
+Follwing
 
 and This bot Has DataBase
 
