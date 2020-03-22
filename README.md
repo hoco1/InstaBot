@@ -1,4 +1,4 @@
-# InstaBot
+# Instagram Bot
 
 # Create Instagram Bot by Selenium
 
