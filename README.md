@@ -4,16 +4,16 @@
 
 This Bot Has This Option :
 
-Follow 
-UnFollow
-Report 
-Block
-SignIn
-LikeTag
-LikeUserPhoto
-Show Your FollowBack User
-SeenStroy
-Follower
+Follow,
+UnFollow,
+Report, 
+Block,
+SignIn,
+LikeTag,
+LikeUserPhoto,
+Show Your FollowBack User,
+SeenStroy,
+Follower,
 Folling
 
 and This bot Has DataBase
