@@ -1,9 +1,8 @@
 # Instagram Bot
-
-# Create Instagram Bot by Selenium
-
-This Bot Has This Option :
-
+Instagram bot built with Python 3.7 and the Selenium package.
+# Testing
+ChromeDriver
+# Features :
 Follow,
 UnFollow,
 Report, 
@@ -19,7 +18,5 @@ Follwing
 and This bot Has DataBase
 
 and It's rellay simply to Use
-
-I'll be happy to tell you what you think 
 
 Thank you 
