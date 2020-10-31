@@ -64,7 +64,7 @@ class instabot:
     
     def likeTagPhoto(self, hashtag):
         driver = self.driver
-        driver.get("https://www.instagram.com/explore/tags/" + hashtag + "/")
+        driver.get("https://www.instagram.com/explore/tags/{}/".format(hashtag))
         sleep(2)
 
         pic_hrefs = []
@@ -92,7 +92,7 @@ class instabot:
     
     def likeUserPhoto(self,user):
         driver = self.driver
-        driver.get('https://www.instagram.com/'+user)
+        driver.get('https://www.instagram.com/{}'.format(user))
         sleep(2)
 
         pic_hrefs = []
@@ -188,7 +188,7 @@ class instabot:
     
     def getUserFollowers(self, username):
         driver = self.driver
-        driver.get('https://www.instagram.com/' + username)
+        driver.get('https://www.instagram.com/{}'.format(username)
         followersLink = driver.find_element_by_css_selector('ul li a')
         followersLink.click()
         sleep(2)
@@ -210,7 +210,7 @@ class instabot:
     
     def getUserFollowing(self,username):
         driver = self.driver
-        driver.get('https://www.instagram.com/'+username)
+        driver.get('https://www.instagram.com/{}'.format(username))
         followingLink = driver.find_elements_by_css_selector('ul li a')[1]
         followingLink.click()
         sleep(2)
